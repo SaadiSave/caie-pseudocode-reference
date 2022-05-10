@@ -1,0 +1,40 @@
+{
+	"pseudocode block": {
+		"scope": "markdown",
+		"prefix": "pseudocode",
+		"body": [
+			"```pseudocode",
+			"$1",
+			"```",
+		],
+		"description": "Enter pseudocode"
+	},
+	"syntax and example": {
+		"scope": "markdown",
+		"prefix": "syn-and-eg",
+		"body": [
+			"`$1`",
+			"",
+			"**e.g.**",
+			"",
+			"`$2`",
+		],
+		"description": "Enter pseudocode"
+	},
+	"block syntax and example": {
+		"scope": "markdown",
+		"prefix": "syn-and-eg-block",
+		"body": [
+			"```peg",
+			"$1",
+			"```",
+			"",
+			"**e.g.**",
+			"",
+			"```pseudocode",
+			"$2",
+			"```",
+		],
+		"description": "Enter pseudocode"
+	}
+}
