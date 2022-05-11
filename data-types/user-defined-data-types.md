@@ -14,7 +14,7 @@
 
 ```peg
 TYPE {ident}
-    {ident} : {type}
+    DECLARE {ident} : {type}
     ...
 ENDTYPE
 ```
@@ -23,8 +23,8 @@ ENDTYPE
 
 ```pseudocode
 TYPE Person
-    Name : STRING
-    Height : REAL
+    DECLARE Name   : STRING
+    DECLARE Height : REAL
 ENDTYPE
 ```
 
